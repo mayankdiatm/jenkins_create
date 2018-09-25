@@ -1,3 +1,5 @@
+import jenkins.model.*;
+
 def jobDSL="""
 node {
   stage("test"){
